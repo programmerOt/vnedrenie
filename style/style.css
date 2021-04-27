@@ -909,3 +909,25 @@ span.bold{
     text-align: center;
     margin-bottom: 30px;
 }
+
+.comand-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0 30px;
+    flex-wrap: wrap;
+}
+.card-human{
+    flex:  0 0 20%;
+    margin-bottom: 50px;
+}
+.human{
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+}
+.human-about{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
