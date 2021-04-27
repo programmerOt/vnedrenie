@@ -1,0 +1,237 @@
+@media screen and (max-width:1000px){
+    .wrapper{
+        max-width: 750px;
+    }
+    .line{
+        max-width: 750px;
+    }
+    .examples-cards>img{
+        max-width: 225px;
+        max-height: 330px;
+    }
+    .title-main{
+        margin-bottom: 15px;
+    }
+    .after-card>img{
+        max-width: 130px;
+    }
+    .after-text{
+        width: 100%;
+        font-size: 12px;
+        align-items: baseline;
+    }
+    .business-goals{
+        display: block;
+    }
+    .b-goals{
+        width: 100%;
+        margin-left: 0;
+    }
+    .b-img{
+        margin: 0;
+        width: 100%;
+    }
+    .question-about>ul{
+        margin-left: 40px;
+    }
+    .director>img{
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width:770px){
+    .wrapper{
+        max-width: 550px;
+    }
+    .line{
+        width: 100%;
+    }
+    .section-title{
+        width: 100%;
+    }
+    .examples-cards{
+        flex-direction: column;
+        align-items: center
+    }
+    .examples-cards>img{
+        max-width: 325px;
+        max-height: 430px;
+        margin-bottom: 10px;
+    }
+    .after-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .after-card>img{
+        max-width: 280px;
+        max-height: 420px;
+    }
+    .after-text{
+        width: auto;
+        font-size: 18px;
+        max-width: 280px;
+    }
+    .header-top{
+        flex-wrap: wrap;
+    }
+    .title-main{
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .title-main>span{
+        font-size: 25px;
+    }
+    .header-description{
+        margin-bottom: 15px;
+    }
+    .form-title{
+        line-height: 30px;
+    }
+    .header-form{
+        flex-direction: column;
+    }
+    .header-form>input{
+        width: 70%;
+    }
+    .header-form>button{
+        width: 70%;
+    }
+    .rewiev-card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rewiev-img{
+        margin-bottom: 10px;
+    }
+    .rewiev-about{
+        width: auto;
+    }
+    .rewiev-about>p{
+    margin-bottom: 7px;
+    }
+    .rewiev-about:last-child{
+        margin-bottom: 25px;
+    }
+    .cycle>img{
+        display: none;
+    }
+    .structure{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dvk{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .director{
+        margin-top: 20px;
+    }
+    .society{
+        flex-direction: column;
+        align-items: center;
+    }
+    .society-text{
+        margin-top: 15px;
+        width: auto;
+    }
+    .footer{
+        flex-wrap: wrap;
+        padding-top: 15px;
+    }
+    .policy{
+        margin-top: 20px;
+    }
+    .footer-icon{
+        margin-top: 10px;
+    }
+    .footer-links{
+        flex-grow: 1;
+        align-items: center;
+    }
+    .footer-links>a{
+        align-self: center;
+    }
+    .thanks-title{
+        font-size: 25px;
+    }
+    .kwiz-img{
+        width: 150px;
+    }
+    .popup{
+        height: 65%;
+    }
+
+}
+@media screen and (max-width:555px){
+    .wrapper{
+        max-width: 320px;
+    }
+    .header-sert{
+        display: none;
+    }
+    .sert-title{
+        margin-top: 20px;
+    }
+    .sert-desc{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .header-text{
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    .line{
+        height: 50px;
+    }
+    .b-goals{
+        margin-left: 15px;
+    }
+    .card-wrap{
+        flex-direction: column;
+    }
+    .questions-wrapper{
+        flex-direction: column;
+    }
+    .q-wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+    .q-b{
+        margin-bottom: 15px;
+    }
+    .trust-img{
+        display: none;
+    }
+    .footer>*{
+        margin-bottom: 10px;
+        align-self: center;
+    }
+    .kwiz-wrap{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .kwiz-img{
+        display: flex;
+        align-self: center;
+        width: 60%;
+        margin-bottom: 20px;
+
+    }
+    .list-wrap{
+        width: auto;
+    }
+    .kwiz-desc>li{
+        margin-bottom: 15px;
+    }
+    .modal-text{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:440px){
+    .modal-text{
+        margin-bottom: 10px;
+    }
+}
